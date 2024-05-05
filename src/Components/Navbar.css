@@ -1,0 +1,40 @@
+.Navbar{
+    display: flex;
+    padding: 10px;
+    display: none;
+}
+.sub-items {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Show sub-items on hover */
+  .ListItem:hover .sub-items {
+    display: block;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+    
+/* Define styles for smaller screens (phones) */
+@media (max-width: 767px) {
+    /* Show the MenuIcon with the class 'qqq' */
+    .Navbar {
+      display: block;
+      background-color: #CFA9AB;
+    }
+  }
+  
+  /* Hide the MenuIcon on larger screens */
+  
+  

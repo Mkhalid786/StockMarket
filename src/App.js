@@ -1,14 +1,21 @@
 import './App.css';
-import Navbar from './Components/Navbar';
-import Login from './Pages/Login';
+import AdminDeshboardThree from './Pages/AdminDeshboardThree';
+import Navbarr  from './Components/Navbarr';
+
 
 
 function App() {
   return (
     <div className="Appp">
-      <Navbar></Navbar>
-      <Login></Login>
-    </div>
+    <AdminDeshboardThree></AdminDeshboardThree>
+
+
+
+
+  
+
+   </div>
+
   );
 }
 
