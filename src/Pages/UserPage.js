@@ -1,66 +1,14 @@
 import NavbarUser from "../Components/NavbarUser";
-import Sidebar from "../Sidebar";
+import { Link } from 'react-router-dom';
+import NavbarrDashOne from "../Components/UserNavbar/NavbarrDashOne";
 
 function UserPage() {
 
   return (
-    <div className="user">
+    <div className="user user001">
       <NavbarUser></NavbarUser>
-
-      <div className="hao">
-      <div
-        class="side-navbar active-nav d-flex abcc  justify-content-between flex-wrap flex-column"
-        id="sidebar"
-      >
-        <ul class="nav flex-column text-white w-100">
-          <a href="#" class="nav-link h3 text-white my-2">
-            Responsive
-          </a>
-          <li href="#" class="nav-link">
-            <i class="bx bxs-dashboard"></i>
-            <span class="mx-2">Explore</span>
-          </li>
-          <li href="#" class="nav-link">
-            <i class="bx bx-user-check"></i>
-            <span class="mx-2">Holdings</span>
-          </li>
-          <li href="#" class="nav-link">
-            <i class="bx bx-conversation"></i>
-            <span class="mx-2">My Watchlist</span>
-          </li>
-        </ul>
-
-        <span href="#" class="nav-link h4 w-100 mb-5">
-          <a href="">
-            <i class="bx bxl-instagram-alt text-white"></i>
-          </a>
-          <a href="">
-            <i class="bx bxl-twitter px-2 text-white"></i>
-          </a>
-          <a href="">
-            <i class="bx bxl-facebook text-white"></i>
-          </a>
-        </span>
-      </div>
-
-      <div class="p-1 my-container active-cont">
-        <nav class="navbar top-navbar navbar-light  abc px-5">
-          <a class="btn bbtt border-0" id="menu-btn">
-            <i class="bx bx-menu">
-              <button
-                className="navbar-toggler bbtt"
-                type="button"
-                data-bs-toggle="collapse"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-            </i>
-          </a>
-        </nav>
-      </div>
-      </div>
-
-      <div className="container-fluid count pt-3">
+      <NavbarrDashOne></NavbarrDashOne>
+      <div className="container-fluid count count01 pt-3">
         <div className="row gap-4">
           <div className="col-3 bg-white custom-div">
             {/* there are three button */}
@@ -70,15 +18,15 @@ function UserPage() {
                 Explore
               </button>
               <button type="button" class="btn btn-primary bot btn2 ">
-                Holdings
+                <Link to="/Holding">Holdings</Link>
               </button>
               <button type="button" class="btn btn-primary bot btn3 ">
-                My Watchlist
+                <Link to="/Watchlist">My Watchlist</Link>
               </button>
             </div>
           </div>
-          <div className=" col-9 ">
-            <div className="container  cat_area ">
+          <div className=" col-9">
+            <div className="container  cat_area">
               <div className="row item">
                 <div className="col-6 col-lg-3 text-center mb-3">
                   <div className="cont">
@@ -113,8 +61,8 @@ function UserPage() {
               </div>
             </div>
 
-            <div className="container-fluid xxx">
-              <div className="row mt-5">
+            <div className="container-fluid ">
+              <div className="row mt-2">
                 <div className="col-12 col-lg-6 dleft">
                   <p className="text-center groww">Most bought on Groww</p>
                   <div className="container h-75 mt-5  most">

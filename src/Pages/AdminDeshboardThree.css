@@ -18,8 +18,8 @@
     background: #555;
   }
 
+
 .Admin1{
-    padding: 1% 10%;
     color: #000;
     font-weight: 500;
     background-color: white;
@@ -29,7 +29,6 @@
     
 }
 .Adminb2{
-    padding: 1% 18%;
     color: #000;
     font-weight: 500;
     background-color: white;
@@ -39,7 +38,6 @@
     
 }
 .Adminb3{
-    padding: 1% 15%;
     color: #000;
     font-weight: 500;
     background-color: white;
@@ -47,8 +45,15 @@
     width: 75%;
     text-align: left;
 }
+.Adminbdrop{
+  color: #000;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+    
+}
 .Adminbd{
-    padding: 6% 20%;
     color: #000;
     font-weight: 500;
     background-color: white;
@@ -67,7 +72,7 @@
 }
 
 .back{
-    height: 619px;
+    height: 33rem;
     background-color: #CFA9AB;
    }
 .btnm1{
@@ -81,7 +86,7 @@
     overflow-y: auto;
   }
   .niifty{
-    height: 16rem;
+    height: 12rem;
   }
   .items{
     margin-top: 1%;
@@ -90,7 +95,7 @@
   .conts{
     border: 2px solid #000000b7;
     width: 80%;
-    height: 90%;
+    height: 80%;
     border-radius: 15px;
     background-color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -107,17 +112,21 @@
     font-size: 20px !important;
   }
   .gain_img{
-    width: 350px;
-    height: 200px;
+    width: 300px;
+    height: 180px;
   }
   .gain_img1{
-    width: 720px;
-    height: 200px;
+    width: 630px;
+    height: 185px;
   }
 
   .F_gain{
     font-weight: 500;
   }
+  .chart_div{
+    background-color: #CFA9AB;
+    height: 510px;
+   }
   @media only screen and (max-width: 600px) {
    .chart_div{
     background-color: #CFA9AB;
@@ -143,7 +152,7 @@
   }
   .gain_img1{
     width: 100%;
-    height: 120px;
+    height: 150px;
   }
   .back{
     min-height: 60rem;

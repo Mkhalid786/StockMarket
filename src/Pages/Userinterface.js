@@ -1,12 +1,14 @@
 import NavbarUser from "../Components/NavbarUser";
-import Sidebar from "../Sidebar";
+import { Link } from "react-router-dom";
+import NavbarrDashTwo from "../Components/UserNavbar/NavbarrDashTwo";
 
 function Userinterface(){
     
     return(
-        <div className="userr ">
+        <div className="userr">
       <NavbarUser></NavbarUser>
-      <div className="hao">
+      <NavbarrDashTwo></NavbarrDashTwo>
+      {/* <div className="hao">
       <div
         class="side-navbar active-nav d-flex abcc  justify-content-between flex-wrap flex-column"
         id="sidebar"
@@ -42,7 +44,7 @@ function Userinterface(){
         </span>
       </div>
 
-      <div class="p-1 my-container active-cont">
+      <div classn="p-1 my-container active-cont">
         <nav class="navbar top-navbar navbar-light  abc px-5">
           <a class="btn bbtt border-0" id="menu-btn">
             <i class="bx bx-menu">
@@ -57,22 +59,22 @@ function Userinterface(){
           </a>
         </nav>
       </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid count pt-3">
+      <div className="container-fluid  count pt-3">
         <div className="row gap-4">
           <div className="col-3 bg-white custom-div">
             {/* there are three button */}
 
             <div class="d-flex flex-column btnm align-items-center">
               <button type="button" class="btn btn-primary bot btn1 ">
-                Explore
+                <Link to="/dashboard">Explore</Link>
               </button>
               <button type="button" class="btn btn-primary bot btn2 ">
                 Holdings
               </button>
               <button type="button" class="btn btn-primary bot btn3 ">
-                My Watchlist
+                <Link to="/Watchlist">My Watchlist</Link>
               </button>
             </div>
           </div>
@@ -112,10 +114,13 @@ function Userinterface(){
               </div>
             </div>
 
-            <div className="container-fluid">
-              <div className="row mt-5"> 
-              <div className=" col-10 col-lg-12">
+            <div className="container-fluid ">
+              <div className="row mt-1 hold01"> 
+              <div className="col holding_area">
               <img src="/assets/Stock.jpg" alt="" className="stockimg"></img>
+              <h5 className="mt-2 hhold fs-4">You have no holding</h5>
+              <p>Make your next investment</p>
+              <div><p className="fs-5">Price will be live after stocks account is active .</p></div>
 
               </div>
               </div>

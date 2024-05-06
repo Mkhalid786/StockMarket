@@ -41,7 +41,10 @@ body {
 }
 .button1 {
   margin-left: 35%;
-  padding: 2% 10%;
+  padding: 0% 5%;
+  border-radius: 25px;
+}
+.button10{
   border-radius: 25px;
 }
 .user {
@@ -111,7 +114,6 @@ input {
   /* Your default input styles */
   border: 1px solid #5a87b5; /* Add any default border styles here */
 }
-
 .in_pass:focus {
   outline: none; /* Remove border when input is focused */
 }
@@ -119,15 +121,12 @@ input {
   max-width: 78%; 
   max-height: 78% 
 }
-.count{
-  height: 89%;
-  background-color: aqua;
- }
+
  .aabb{
   visibility: hidden;
  }
  .custom-div {
-  height: 550px; /* specify your desired height */
+  height: 516px; /* specify your desired height */
   width: 300px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -267,16 +266,31 @@ body {
   font-size: 18px;
 }
 .stockimg{
-  height: 400px;
-  width: 1060px;
+  height: 200px;
+  width: 600px;
 }
 .count , .opp{
   background-color: #CFA9AB;
 }
-
+.holding_area{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.user_nav{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .custom-div{
     display: none;
+  }
+  .hold01{
+    width: 320px;
+  }
+  .hhold{
+    
   }
   
   .bbtt{
@@ -314,8 +328,11 @@ body {
   .user{
     min-height: 1300px;
   }
+  .user001{
+    min-height: 1100px !important;
+  }
   .userr{
-    min-height: 900px !important;
+    min-height: 800px !important;
     background-color: #CFA9AB;
   }
   .most{
@@ -356,7 +373,19 @@ body {
   .count{
     background-color: #CFA9AB;
   }
- 
+  .count01{
+    height: 1050px;
+  }
+ .qqq{
+  border: 1px solid #0000002d;
+  width: 10% !important;
+  height: 10% !important;
+  border-radius: 5px;
+  margin-left: 2%;
+ }
+ .user_nav{
+  display: block;
+ }
  
 
 }
