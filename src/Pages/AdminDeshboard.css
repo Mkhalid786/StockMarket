@@ -68,13 +68,7 @@
     display: flex;
     justify-content: space-between;
     margin-right: 5%;
-
 }
-
-.back{
-    height: 33rem;
-    background-color: #CFA9AB;
-   }
 .btnm1{
     
     height: 100%;
@@ -127,10 +121,76 @@
     background-color: #CFA9AB;
     height: 510px;
    }
+   .danger{
+    background-color: #CFA9AB;
+    min-height: 100vh;
+   }
+   .custom-div0{
+    height: 516px; /* specify your desired height */
+    width: 300px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid #00000096;
+  }
+
+  /* ----------------TABLE CSS-------------------- */
+
+
+  .table_header{
+    height: 40px;
+    border-bottom: 1px solid #00000054;
+    background-color: rgba(179, 133, 50, 0.418);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .comp_header{
+    width: 7rem;
+  }
+  .table_row{
+    border-bottom: 1px solid #00000054;
+    text-align: center;
+  }
+  .f_size{
+    font-size: 14px;
+    color: red;
+  }
+  .f_size0{
+    font-size: 14px;
+    color: green;
+  }
+  .table_button{
+    width: 8rem;
+  }
+  .table_price{
+    width: 8rem;
+  }
+  .table_graph{
+    width: 7rem;
+  }
+  .down_size{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .8;
+  
+  }
+  .clr{
+    background-color: #88888833;
+  }
+  .tabe_d{
+    color: blue;
+    padding: 0 2%;
+    
+  }
+
+
   @media only screen and (max-width: 600px) {
    .chart_div{
     background-color: #CFA9AB;
     height: 700px;
+   }
+   .custom-div0{
+    display: none;
    }
    .items{
     margin-top: 5%;
@@ -155,11 +215,15 @@
     height: 150px;
   }
   .back{
-    min-height: 60rem;
+    min-height: 58rem;
     background-color: #CFA9AB;
    }
    .bulk{
     margin-top: 3%;
+   }
+   .table_m{
+    width: 600px;
+    background-color: #000;
    }
 
   }

@@ -273,7 +273,6 @@ body {
   background-color: #CFA9AB;
 }
 .holding_area{
-  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,10 +288,6 @@ body {
   .hold01{
     width: 320px;
   }
-  .hhold{
-    
-  }
-  
   .bbtt{
     background-color: transparent;
     border: 1px solid #000;
@@ -387,5 +382,39 @@ body {
   display: block;
  }
  
+
+}
+
+
+/* -------------------TABLE CSS----------- */
+.table_header{
+  height: 50px;
+  border-bottom: 1px solid #00000054;
+  background-color: rgba(245, 222, 179, 0.363);
+}
+.table_row{
+  border-bottom: 1px solid #00000054;
+}
+.f_size{
+  font-size: 14px;
+  color: red;
+}
+.f_size0{
+  font-size: 14px;
+  color: green;
+}
+.table_button{
+  width: 8rem;
+}
+.table_price{
+  width: 15rem;
+}
+.table_graph{
+  width: 19rem;
+}
+.down_size{
+  font-size: 18px;
+  font-weight: 500;
+  opacity: .8;
 
 }

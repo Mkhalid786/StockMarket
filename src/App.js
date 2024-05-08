@@ -5,11 +5,16 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Userinterfacetwo from './Pages/Userinterfacetwo';
 import Userinterface from './Pages/Userinterface'
 import UserPage from './Pages/UserPage';
+import AdminDeshboard from './Pages/AdminDeshboard';
+import Deshboard from './Pages/Deshboard'
+import SignalDeshboard from './Pages/SignalDeshboard';
 function App() {
   return (
     <div className="Appp">
+      <SignalDeshboard></SignalDeshboard>
       
-      <Router>
+
+      {/* <Router>
 
         <Routes>
           <Route path="/" element={<Login />}></Route>
@@ -18,7 +23,7 @@ function App() {
           <Route path="/Watchlist" element={<Userinterfacetwo />}></Route>
         </Routes>
 
-      </Router>
+      </Router> */}
 
 
 

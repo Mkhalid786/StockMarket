@@ -1,19 +1,17 @@
 import AdminNavbar from "../Components/AdminNavbar";
 import Navbarr from "../Components/Navbarr";
-import "./AdminDeshboardThree.css";
+import "./Deshboard.css";
 
 
-function AdminDeshboardThree() {
+function Deshboard() {
   return (
-    <div>
+    <div className=" main">
       <AdminNavbar></AdminNavbar>
       <Navbarr></Navbarr>
 
-      <div className="container-fluid back pt-1">
+      <div className="container-fluid pt-1">
         <div className="row gap-3">
           <div className="col-3 bg-white custom-div">
-            {/* there are three button */}
-
             <div class="btnm1">
               <button type="button" class="btn btn-primary my-2 Admin1">
                 Deshboard
@@ -89,7 +87,7 @@ function AdminDeshboardThree() {
               <button type="button" class="btn btn-primary my-2 Admin1">
                 Signal
               </button>
-              
+
               <button type="button" class="btn btn-primary my-2 Admin1">
                 System
               </button>
@@ -132,63 +130,85 @@ function AdminDeshboardThree() {
             </div>
 
           </div>
-          <div className=" col-12 col-lg-9 chart_div">
-            <div className="container-fluid bg-white">
-              <div className="col-12 col-lg-12 niifty d-flex justify-content-center align-items-center">
-                Put Chart here
-              </div>
-            </div>
-            <div className="container  cat_area">
-              <div className="row items">
-                <div className="col-6 col-lg-3 text-center">
-                  <div className="conts">
-                    <h4 className="fs-5 mt-1">SENSEX</h4>
-                    <p>
-                      72,975.85 <span>+213.64 (0.29%)</span>
-                    </p>
-                  </div>
+          <div className=" col-12 col-lg-9 cover">
+            <div className="container py-3 up_main">
+              <div className="row justify-content-between mt-4">
+                <div class="col-md-2 col-2 bg-white shadow p-3 rounded-lg in_div" >
+                  <div className=" text_in ">121</div>
+                  <div className="text_inp">Total Live Account</div>
                 </div>
-                <div className="col-6 col-lg-3 text-center">
-                  <div className="conts">
-                    <h4 className="font-bold fs-5 mt-1">BANK NIFTY</h4>
-                    <p>
-                      72,975.85 <span>+213.64 (0.29%)</span>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-6 col-lg-3 text-center">
-                  <div className="conts">
-                    <h4 className="font-bold fs-5 mt-1">FINNIFTY</h4>
-                    <p>
-                      72,975.85 <span>+213.64 (0.29%)</span>
-                    </p>
-                  </div>
-                </div>
-                <div className="col-6 col-lg-3 text-center">
-                  <div className="conts">
-                    <h4 className="font-bold fs-5 mt-1">All Indices</h4>
-                    <p>Indian and Global</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="container ">
-              <div className="row">
-                <div className="col-12 bulk col-lg-4">
-                  <p className="text-center F_gain">F & O Gainers</p>
-                  <img src="/assets/Screenshot 2024-05-05 181716.png" className="gain_img"></img>
-                </div>
-                <div className="col col-lg-8 bulk">
-                  <p className="F_gain">Bulk Deals</p>
-                  <img src="/assets/Screenshot 2024-05-05 181747.png" className="gain_img1"></img>
 
+
+                <div class="col-md-2 col-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">0</div>
+                  <div className="text_inp">Demo Account</div>
+                </div>
+
+                <div class="col-md-2 col-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">60</div>
+                  <div className="text_inp">Total Licence</div>
+                </div>
+
+                <div class="col-md-2  col2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">112</div>
+                  <div className="text_inp">Total 2 day service</div>
+                </div>
+              </div>
+              
+              <div className="row justify-content-between row_two mt-5">
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">121</div>
+                  <div className="text_inp">Total Live Account</div>
+                </div>
+                
+
+
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">0</div>
+                  <div className="text_inp">Demo Account</div>
+                </div>
+
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">60</div>
+                  <div className="text_inp">Total Licence</div>
+                </div>
+
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">112</div>
+                  <div className="text_inp">Total 2 day service</div>
+                </div>
+              </div>
+
+              <div className="row justify-content-between row_three mt-5 ">
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">121</div>
+                  <div className="text_inp">Total Live Account</div>
+                </div>
+                
+
+
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">0</div>
+                  <div className="text_inp">Demo Account</div>
+                </div>
+
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">60</div>
+                  <div className="text_inp">Total Licence</div>
+                </div>
+
+                <div class="col-md-2 bg-white p-3 shadow rounded-lg in_div" >
+                  <div className=" text_in ">112</div>
+                  <div className="text_inp">Total 2 day service</div>
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>
     </div>
   );
 }
-export default AdminDeshboardThree;
+export default Deshboard;

@@ -1,0 +1,41 @@
+body{
+    background-color:  #CFA9AB;
+
+
+}
+.desh_board {
+    background-color:  #CFA9AB;
+    height: 100%;
+}
+.main{
+    background-color:  #CFA9AB;
+    height: 100%;
+}
+.in_div{
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+.text_in{
+    font-weight: 600;
+}
+.text_inp{
+    font-weight: 600;
+    font-size: 15px;
+}
+.cover{
+    background-color: rgba(240, 248, 255, 0.541);
+    
+}
+@media only screen and (max-width: 600px) {
+    .row_one{  
+        flex: none;
+    }
+    .main{
+        background-color:  #CFA9AB;
+        height: 148%;
+    }
+    .in_div{
+        margin-bottom: 5%;
+    }
+  }

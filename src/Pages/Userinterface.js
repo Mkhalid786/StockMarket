@@ -115,7 +115,7 @@ function Userinterface(){
             </div>
 
             <div className="container-fluid ">
-              <div className="row mt-1 hold01"> 
+              <div className="row bg-white mt-1 hold01"> 
               <div className="col holding_area">
               <img src="/assets/Stock.jpg" alt="" className="stockimg"></img>
               <h5 className="mt-2 hhold fs-4">You have no holding</h5>
