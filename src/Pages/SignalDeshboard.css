@@ -1,36 +1,63 @@
 
-.bttn1{
+
+.input_filter {
+    width: 80%;
+}
+
+.input_filter {
+    border: none;
+  }
+
+  .input_filter.focused {
+    outline: none; 
+    box-shadow: none; 
+  }
+
+.up_input {
+    width: 20%;
+    border: 1px solid #00000042;
+    border-radius: 20px;
+}
+
+.bttn1 {
     margin-right: 5%;
     border-radius: 20px;
     margin-left: 10%;
 
 }
-.signal{
+
+.signal {
     font-weight: 600;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.bttn{
+
+.bttn {
     border-radius: 20px;
     /* margin-right: 5%; */
 }
-.reset{
+
+.reset {
     height: 70px;
     margin-top: 2%;
 }
-.symbol_form{
+
+.symbol_form {
     border-radius: 20px;
     padding: 0 0%;
     width: 100%;
 }
-.col-auto{
+
+.col-auto {
     /* background-color: aqua; */
     width: 22%;
 }
-.submit{
+
+.submit {
     border-radius: 20px;
     margin-left: 20%;
 }
-.col-auto label{
+
+.col-auto label {
     font-weight: 600;
     padding: 2% 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,32 +65,39 @@
 
 
 @media only screen and (max-width: 600px) {
-    .btn_both{
+    .btn_both {
         width: 75%;
     }
-    .bttn1{
+
+    .bttn1 {
         border-radius: 20px;
         padding: 3% 3%;
     }
-    .signal{
+
+    .signal {
         font-size: 18px;
     }
-    .cover{
+
+    .cover {
         height: 50rem;
     }
-    .col-auto{
+
+    .col-auto {
         width: 80%;
     }
-    .col-auto1{
+
+    .col-auto1 {
         margin-left: 10%;
     }
-    .form_reset{
-        border:  1px solid #00000079;
+
+    .form_reset {
+        border: 1px solid #00000079;
         border-radius: 10px;
-        height: 110%;     
+        height: 110%;
     }
-    .submit{
+
+    .submit {
         padding: 2% 15%;
 
     }
-  }
+}

@@ -1,6 +1,7 @@
 import AdminNavbar from "../Components/AdminNavbar";
 import Navbarr from "../Components/Navbarr";
 import "./SignalDeshboard.css";
+import { CiSearch } from "react-icons/ci";
 
 
 function SignalDeshboard() {
@@ -147,56 +148,67 @@ function SignalDeshboard() {
             <div className="container">
               <div className="row">
                 <div className="col">
-                <form class="row align-items-center form_reset">
+                  <form class="row align-items-center form_reset">
 
-<div class="col-auto col-12">
-  <label for="symbolNameDropdown">Symbol Name</label>
-  <select class="form-select symbol_form" id="symbolNameDropdown">
+                    <div class="col-auto col-12">
+                      <label for="symbolNameDropdown">Symbol Name</label>
+                      <select class="form-select symbol_form" id="symbolNameDropdown">
 
-    <option value="1">All</option>
-    <option value="2">Option 2</option>
+                        <option value="1">All</option>
+                        <option value="2">Option 2</option>
 
-  </select>
-</div>
-
-
-<div class="col-auto col-12">
-  <label for="segmentDropdown">Segment</label>
-  <select class="form-select symbol_form" id="segmentDropdown">
-
-    <option value="1">All</option>
-    <option value="2">Option 2</option>
-    {/* <!-- Add more options as needed --> */}
-  </select>
-</div>
+                      </select>
+                    </div>
 
 
-<div class="col-auto col-8">
-  <label for="startDropdown">Start</label>
-  <select class="form-select symbol_form" id="startDropdown">
+                    <div class="col-auto col-12">
+                      <label for="segmentDropdown">Segment</label>
+                      <select class="form-select symbol_form" id="segmentDropdown">
 
-    <option value="1">All</option>
-    <option value="2">Option 2</option>
+                        <option value="1">All</option>
+                        <option value="2">Option 2</option>
+                        {/* <!-- Add more options as needed --> */}
+                      </select>
+                    </div>
 
-  </select>
-</div>
+
+                    <div class="col-auto col-8">
+                      <label for="startDropdown">Start</label>
+                      <select class="form-select symbol_form" id="startDropdown">
+
+                        <option value="1">All</option>
+                        <option value="2">Option 2</option>
+
+                      </select>
+                    </div>
 
 
-<div class="col-auto col_auto1 mt-2">
-  <button type="submit" class="btn btn-primary submit">Submit</button>
-</div>
-</form>
-            
+                    <div class="col-auto col_auto1 mt-2">
+                      <button type="submit" class="btn btn-primary submit">Submit</button>
+                    </div>
+                  </form>
+
                 </div>
               </div>
             </div>
 
-            <div className="containe">
+            <div className="container mt-4">
               <div className="row">
-                <div className="col">
-                  <input placeholder="Filter table"></input>
+                <div className="col ">
+                  <div className="bg-white up_input text-center">
+                    <CiSearch />
+                    <input placeholder="Filter table" className="input_filter" onFocus={(e) => e.target.classList.add('focused')} onBlur={(e) => e.target.classList.remove('focused')}></input>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div className="container bg-danger">
+              <div className="row">
+                <div className="col">
+                  ddd
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
